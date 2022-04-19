@@ -2,8 +2,8 @@ from model.data_utils import CoNLLDataset
 from model.config import Config
 from model.ner_model import NERModel
 from model.ner_learner import NERLearner
-from model.ent_model import EntModel
-from model.ent_learner import EntLearner
+# from model.ent_model import EntModel
+# from model.ent_learner import EntLearner
 
 
 def main():
