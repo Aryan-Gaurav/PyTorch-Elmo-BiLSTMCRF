@@ -231,7 +231,7 @@ class NERLearner(object):
                     character_ids = character_ids.cuda()
                 embeddings = self.elmo(character_ids)
                 word_input = embeddings['elmo_representations'][0]
-                word_input = T(word_input, uda=self.use_cuda)
+                word_input = T(word_input, cuda=self.use_cuda)
                 word_input, targets = Variable(word_input, requires_grad=False), \
                                       Variable(targets)
                 inputs = (word_input)
