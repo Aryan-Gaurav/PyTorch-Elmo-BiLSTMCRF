@@ -361,6 +361,7 @@ class NERLearner(object):
         self.model.eval()
         if len(words) == 1:
             mult = torch.ones(2, 1,dtype=torch.int)
+            mult = T(mult, cuda=self.use_cuda)
 
         if self.use_elmo:
             sentences = words
@@ -369,12 +370,12 @@ class NERLearner(object):
                 character_ids = character_ids.cuda()
             embeddings = self.elmo(character_ids)
             word_input = embeddings['elmo_representations'][1]
+            word_input = T(word_input,cuda=self.use_cuda)
             word_input = Variable(word_input, requires_grad=False)
 
             if len(words) == 1:
                 word_input = ((mult*word_input.transpose(0,1)).transpose(0,1).contiguous()).type(torch.FloatTensor)
 
-            word_input = T(word_input, cuda=self.use_cuda)
             inputs = (word_input)
 
         else:
@@ -384,8 +385,8 @@ class NERLearner(object):
             word_ids, sequence_lengths = pad_sequences(word_ids, 1)
             char_ids, word_lengths = pad_sequences(char_ids, pad_tok=0,
                                                    nlevels=2)
-            word_ids = torch.tensor(word_ids)
-            char_ids = torch.tensor(char_ids)
+            word_ids = T(torch.tensor(word_ids),cuda=self.use_cuda)
+            char_ids = T(torch.tensor(char_ids), cuda=self.use_cuda)
 
             if len(words) == 1:
                 word_ids = mult*word_ids
