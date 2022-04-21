@@ -416,7 +416,7 @@ class NERLearner(object):
             preds: list of tags (string), one for each word in the sentence
 
         """
-        nlp = spacy.load('en')
+        nlp = spacy.load('en_core_web_sm')
         doc = nlp(sentences)
         words_raw = [[token.text for token in sent] for sent in doc.sents]
         if self.use_elmo:
