@@ -403,8 +403,10 @@ class NERLearner(object):
         outputs = self.model(inputs)
 
         predictions = self.criterion.decode(outputs)
-
-        predictions = [p[:i] for p, i in zip(predictions, sequence_lengths)]
+        
+        
+        if self.use_elmo == False:
+            predictions = [p[:i] for p, i in zip(predictions, sequence_lengths)]
 
         return predictions
 
