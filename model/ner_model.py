@@ -1,5 +1,6 @@
 #from fastai.text import *
 from .core import *
+import torch
 
 class NERModel(nn.Module):
 
@@ -46,7 +47,7 @@ class NERModel(nn.Module):
             word_emb = torch.cat((word_emb, char_output), 2) #shape = S*B*(wnh+2cnh)
             word_emb = self.dropout(word_emb)
 
-        word_emb = T(word_emb, cuda=self.use_cuda)
+        word_emb = T(word_emb, cuda=torch.cuda.is_available())
         output, (h, c) = self.word_lstm(word_emb) #shape = S*B*hidden_size_lstm
         output = self.dropout(output)
 
