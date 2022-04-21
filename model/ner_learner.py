@@ -371,7 +371,7 @@ class NERLearner(object):
             word_input = Variable(word_input, requires_grad=False)
 
             if len(words) == 1:
-                word_input = ((mult*word_input.transpose(0,1)).transpose(0,1).contiguous()).type(torch.FloatTensor)
+                word_input = ((torch.from_numpy(mult.values)*word_input.transpose(0,1)).transpose(0,1).contiguous()).type(torch.FloatTensor)
 
             word_input = T(word_input, cuda=self.use_cuda)
             inputs = (word_input)
