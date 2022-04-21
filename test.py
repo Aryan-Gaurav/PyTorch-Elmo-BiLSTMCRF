@@ -41,7 +41,7 @@ def main():
         try:
             sent = (sys.argv[2] if sys.argv[1] == "pred" else sys.argv[3])
         except IndexError:
-            sent = ["Peter", "Johnson", "lives", "in", "Los", "Angeles"]
+            sent = "Peter Johnson lives in Los Angeles"
 
         print("Predicting sentence: ", sent)
         pred = learn.predict(sent)
