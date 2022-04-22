@@ -1,0 +1,98 @@
+2022-04-22 09:45:43,236:INFO: Initializing ELMo
+2022-04-22 09:45:43,414:INFO: https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_options.json not found in cache, downloading to /root/.allennlp/cache/1b18dd09179ba1bd92d0f4aa8a4089152c7ec97f14abfbad7052a443c5695047.15c465f454169b1ddb0b7f0d48dca2484f5b3350e81e870a0c3a797233eaac66
+2022-04-22 09:45:43,720:INFO: https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 not found in cache, downloading to /root/.allennlp/cache/c80e0cc2f7021815b01b9b2f47526804cedc186e3f2f1622b4537169ff759ce9.e6623c55f61b49e14a2ef0881ac5dbe85b2bfe9fb014760bc706855d4f7f48b7
+2022-04-22 09:45:51,626:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:51,772:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:51,925:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:52,078:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:52,239:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:52,378:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:52,536:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:52,822:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:53,013:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:53,225:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:45:53,374:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_options.json is up-to-date
+2022-04-22 09:45:59,030:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 09:46:00,203:INFO: GPU found.
+2022-04-22 09:46:08,568:INFO: Training Model
+2022-04-22 09:46:08,571:INFO: 
+Epoch: 0
+2022-04-22 09:48:29,483:INFO: Train Loss: 459.787, Train Accuracy: 95.316% (140352/147249)
+2022-04-22 09:48:49,141:INFO: Val Loss : 172.148, Val Accuracy: 98.453%, Val F1: 61.010%
+2022-04-22 09:48:49,173:INFO: 
+Epoch: 1
+2022-04-22 09:51:04,277:INFO: Train Loss: 251.789, Train Accuracy: 97.775% (143972/147249)
+2022-04-22 09:51:24,685:INFO: Val Loss : 151.104, Val Accuracy: 98.548%, Val F1: 64.828%
+2022-04-22 09:51:24,722:INFO: 
+Epoch: 2
+2022-04-22 09:53:40,247:INFO: Train Loss: 208.957, Train Accuracy: 98.109% (144465/147249)
+2022-04-22 09:53:59,975:INFO: Val Loss : 139.471, Val Accuracy: 98.618%, Val F1: 67.619%
+2022-04-22 09:54:00,007:INFO: 
+Epoch: 3
+2022-04-22 09:56:15,320:INFO: Train Loss: 181.175, Train Accuracy: 98.263% (144692/147249)
+2022-04-22 09:56:34,789:INFO: Val Loss : 131.458, Val Accuracy: 98.717%, Val F1: 70.750%
+2022-04-22 09:56:34,819:INFO: 
+Epoch: 4
+2022-04-22 09:58:49,891:INFO: Train Loss: 165.006, Train Accuracy: 98.441% (144954/147249)
+2022-04-22 09:59:09,707:INFO: Val Loss : 131.549, Val Accuracy: 98.743%, Val F1: 71.702%
+2022-04-22 09:59:09,725:INFO: 
+Epoch: 5
+2022-04-22 10:01:25,924:INFO: Train Loss: 150.914, Train Accuracy: 98.554% (145120/147249)
+2022-04-22 10:01:45,797:INFO: Val Loss : 126.916, Val Accuracy: 98.804%, Val F1: 73.751%
+2022-04-22 10:01:45,830:INFO: 
+Epoch: 6
+2022-04-22 10:04:00,401:INFO: Train Loss: 137.820, Train Accuracy: 98.672% (145293/147249)
+2022-04-22 10:04:19,401:INFO: Val Loss : 124.141, Val Accuracy: 98.843%, Val F1: 74.270%
+2022-04-22 10:04:19,448:INFO: 
+Epoch: 7
+2022-04-22 10:06:34,795:INFO: Train Loss: 130.074, Train Accuracy: 98.743% (145398/147249)
+2022-04-22 10:06:54,166:INFO: Val Loss : 121.136, Val Accuracy: 98.869%, Val F1: 75.046%
+2022-04-22 10:06:54,198:INFO: 
+Epoch: 8
+2022-04-22 10:09:09,059:INFO: Train Loss: 121.173, Train Accuracy: 98.790% (145467/147249)
+2022-04-22 10:09:28,907:INFO: Val Loss : 127.757, Val Accuracy: 98.800%, Val F1: 72.761%
+2022-04-22 10:09:28,944:INFO: 
+Epoch: 9
+2022-04-22 10:11:42,699:INFO: Train Loss: 118.628, Train Accuracy: 98.811% (145498/147249)
+2022-04-22 10:12:02,189:INFO: Val Loss : 128.979, Val Accuracy: 98.795%, Val F1: 72.576%
+2022-04-22 10:12:02,224:INFO: 
+Epoch: 10
+2022-04-22 10:14:15,596:INFO: Train Loss: 114.449, Train Accuracy: 98.845% (145548/147249)
+2022-04-22 10:14:34,682:INFO: Val Loss : 121.065, Val Accuracy: 98.925%, Val F1: 76.565%
+2022-04-22 10:14:34,708:INFO: 
+Epoch: 11
+2022-04-22 10:16:48,445:INFO: Train Loss: 105.442, Train Accuracy: 98.951% (145704/147249)
+2022-04-22 10:17:07,771:INFO: Val Loss : 123.336, Val Accuracy: 98.921%, Val F1: 75.996%
+2022-04-22 10:17:07,787:INFO: 
+Epoch: 12
+2022-04-22 10:19:20,358:INFO: Train Loss: 104.507, Train Accuracy: 98.953% (145707/147249)
+2022-04-22 10:19:40,103:INFO: Val Loss : 126.926, Val Accuracy: 98.852%, Val F1: 73.625%
+2022-04-22 10:19:40,124:INFO: 
+Epoch: 13
+2022-04-22 10:21:53,193:INFO: Train Loss: 100.140, Train Accuracy: 98.987% (145757/147249)
+2022-04-22 10:22:12,949:INFO: Val Loss : 123.247, Val Accuracy: 98.921%, Val F1: 75.479%
+2022-04-22 10:22:12,977:INFO: 
+Epoch: 14
+2022-04-22 10:24:26,447:INFO: Train Loss: 95.514, Train Accuracy: 99.043% (145840/147249)
+2022-04-22 10:24:45,960:INFO: Val Loss : 121.013, Val Accuracy: 98.925%, Val F1: 75.368%
+2022-04-22 10:24:46,024:INFO: Saved model at results/test/saves/ner_15e_glove.h5
+2022-04-22 10:25:12,397:INFO: Initializing ELMo
+2022-04-22 10:25:12,590:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_options.json is up-to-date
+2022-04-22 10:25:12,740:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:12,891:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:13,033:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:13,183:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:13,340:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:13,494:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:13,662:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:13,822:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:14,109:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:14,313:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:14,527:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:14,676:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_options.json is up-to-date
+2022-04-22 10:25:19,757:INFO: cache of https://s3-us-west-2.amazonaws.com/allennlp/models/elmo/2x4096_512_2048cnn_2xhighway/elmo_2x4096_512_2048cnn_2xhighway_weights.hdf5 is up-to-date
+2022-04-22 10:25:20,768:INFO: GPU found.
+2022-04-22 10:25:25,068:INFO: Loaded model from results/test/saves/ner_15e_glove.h5
+2022-04-22 10:25:25,196:INFO: Evaluating on test set
+2022-04-22 10:26:03,698:INFO: Skipping batch of size=1
+2022-04-22 10:26:03,711:INFO: Val Loss : 153.905, Val Accuracy: 98.633%, Val F1: 73.041%
