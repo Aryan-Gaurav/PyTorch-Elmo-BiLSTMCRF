@@ -420,6 +420,7 @@ class NERLearner(object):
             preds: list of tags (string), one for each word in the sentence
 
         """
+        
         nlp = spacy.load('en_core_web_sm')
         doc = nlp(sentences)
         words_raw = [[token.text for token in sent] for sent in doc.sents]
@@ -433,6 +434,10 @@ class NERLearner(object):
             #     words = zip(*words)
 
         pred_ids = self.predict_batch(words)
+        print("The prediction for following sentences will be done")
+        print(sentences)
+        print("The predictions are")
+        print(pred_ids)
         preds = [[self.idx_to_tag[idx.item() if isinstance(idx, torch.Tensor) else idx]  for idx in s] for s in pred_ids]
 
         return preds
