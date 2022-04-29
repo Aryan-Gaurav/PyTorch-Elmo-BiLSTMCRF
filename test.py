@@ -41,7 +41,7 @@ def main():
         try:
             sent = sys.argv[2]
         except IndexError:
-            sent = "Paracetamols are analgesic drugs."
+            sent = ["Paracetamols are analgesic drugs.","Penicillin is a drug"]
 
         print("Predicting sentence: ", sent)
         pred = learn.predict(sent)
