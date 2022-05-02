@@ -434,6 +434,7 @@ class NERLearner(object):
             #     words = zip(*words)
 
         pred_ids = self.predict_batch(words)
+        print(words)
         print("The prediction for following sentences will be done")
         print(sentences)
         print("The predictions are")
